@@ -13,13 +13,13 @@
                 "-Wextra",
                 "-Wconversion",
                 "-Wsign-conversion",
+                "-Wno-overflow",
                 "-std=c++20",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-I${workspaceFolder}/include",
                 "${workspaceFolder}/include/*.cpp"
-                // "-I/home/smurphy/Documents/learncpp/include"
             ],
             "options": {
                 "cwd": "${fileDirname}"
