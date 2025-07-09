@@ -17,6 +17,9 @@ int main()
     PRINT_TYPE_INFO(int, width);
     PRINT_TYPE_INFO(long, width);
     PRINT_TYPE_INFO(long long, width);
+    PRINT_TYPE_INFO(float, width);
+    PRINT_TYPE_INFO(double, width);
+    PRINT_TYPE_INFO(long double, width);
 
     return 0;
 }
