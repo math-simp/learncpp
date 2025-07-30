@@ -52,5 +52,6 @@
         "format": "cpp",
         "span": "cpp",
         "variant": "cpp"
-    }
+    },
+    "editor.formatOnSave": true
 }
